@@ -1,0 +1,20 @@
+{
+  "name": "precis-client-sample",
+  "version": "0.0.1",
+  "description": "Super simple example using the precis-client and precis-*-adapters.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Darling",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^2.8.0",
+    "hapi": "^8.6.1",
+    "precis-client-logger": "0.0.4",
+    "precis-console-adapter": "0.0.2",
+    "precis-file-adapter": "0.0.2",
+    "precis-file-logger": "0.0.7",
+    "request": "^2.34.0"
+  }
+}
